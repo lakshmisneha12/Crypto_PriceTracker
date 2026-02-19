@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Price Tracker</title>
+  <link rel="stylesheet" href="pricetrack.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>📈 Crypto Price Tracker</h1>
+  <p class="subtitle">Live prices (auto-updated)</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Bitcoin (BTC)</h3>
+      <p id="btc">$0</p>
+    </div>
+
+    <div class="card">
+      <h3>Ethereum (ETH)</h3>
+      <p id="eth">$0</p>
+    </div>
+
+    <div class="card">
+      <h3>Dogecoin (DOGE)</h3>
+      <p id="doge">$0</p>
+    </div>
+  </div>
+
+  <p class="status" id="status">Fetching live data...</p>
+</div>
+
+<script src="pricetrack.js"></script>
+</body>
+</html>
